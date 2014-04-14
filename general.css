@@ -25,3 +25,16 @@ img {
 	width: 100%;
     display: block;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.billboard {
+	overflow: hidden;
+	background-image: url(../images/driftwood.jpg);
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
