@@ -35,7 +35,7 @@ body {
 	overflow: hidden;
 	background-image: url(../images/driftwood.jpg);
 	background-color: #f2f2f2;
-	background-size: 40rem;
+	background-size: 40 rem;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
