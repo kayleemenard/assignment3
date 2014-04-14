@@ -19,7 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
+
 }
 
 img {
@@ -43,7 +43,8 @@ body {
 
 h1 {
 	background-color: rgba(242, 236, 206, .8);
-
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 800;
 }
 
 
