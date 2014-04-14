@@ -19,6 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 img {
@@ -29,6 +30,7 @@ img {
 body {
 	margin: 0;
 	padding: 0;
+	background-image: url(../images/stripes.png);
 }
 
 .billboard {
@@ -37,10 +39,45 @@ body {
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: 100%;
 }
 
 h1 {
 	background-color: rgba(242, 236, 206, .8);
+	font-weight: 800;
+	color: #727372;
+	text-align: center;
+}
+
+article {
+	margin: 0 1.25rem;
+	padding: .25rem .75rem;
+	background-color: #f2f2f2;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #89aabd;
+}
+
+p {
+	line-height: 1.5rem;
+	font-size: 1.25rem;
+	font-weight: 400;
+
+}
+
+.products ul,
+.products ul:link,
+.products ul:visited {
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #727372;
+	margin: 0;
+	padding: 0;
 }
 
 
