@@ -27,6 +27,18 @@ img {
     display: block;
 }
 
+header {
+	overflow: hidden;
+	background-color: #f2ecce;
+}
+
+.logo {
+	width: 4rem;
+	height: auto;
+	margin: .75rem;
+	float:left;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -35,11 +47,11 @@ body {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	height: 60px;
-    width: 60px;
+	height: 70px;
+    width: 70px;
 	overflow: hidden;
     position: absolute;
-    top: .25rem;
+    top: 0;
     right: 0;
 	
 	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
@@ -52,8 +64,6 @@ body {
 	max-height: 0; /* makes the area invisible */
     background-color: #89aabd;
     clear: both; /* Comes after the content that floats above */
-    
-    /* Animation on open */
 
 	-moz-transition: all 250ms linear;
 	-o-transition: all 250ms linear;
@@ -62,12 +72,13 @@ body {
 }
 
 .nav-top[data-state="expanded"] {
-	max-height: 14em; /* max height of dropdown */
+	max-height: 15em;
 }
 
 .nav-top ul { 
 	margin: 0;
-    padding: 1.5rem 0;
+    padding: .25rem 0;
+    text-align: center;
     list-style-type: none;
 }
 
@@ -76,9 +87,9 @@ body {
 .nav-top a:visited {
 	display: block;
 	font-size: 1.25em;
-	font-weight: 700;
-    padding: .25rem 5%;
-	color: #727372;
+	font-weight: 400;
+    padding: .25rem 0;
+	color: #f2f3f2;
 	text-decoration: none;
 }
 
@@ -87,26 +98,28 @@ body {
 	overflow: hidden;
 	background-image: url(../images/driftwood.jpg);
 	background-repeat: no-repeat;
-	background-color: #f2f2f2;
+	background-color: #f2ecce;
 	background-position: center center;
-	background-size: 100%;
+	background-size: 40rem;
 }
 
 h1 {
-	margin: 20rem;
+	margin: 6rem 0;
 	background-color: rgba(242, 236, 206, .8);
 	font-weight: 800;
+	font-size: 2.5rem;
 	color: #727372;
 	text-align: center;
 }
 
 article {
 	margin: 0;
-	padding: .25rem .75rem;
-	background-color: #f2f2f2;
+	padding: 1.5rem 5%;
+	background-color: #f2f3f2;
 }
 
 h2 {
+	margin: 0 0 1.5rem;
 	font-size: 1.5rem;
 	font-weight: 700;
 	color: #89aabd;
@@ -116,19 +129,24 @@ p {
 	line-height: 1.5rem;
 	font-size: 1.25rem;
 	font-weight: 400;
-
 }
 
-.products ul,
-.products ul:link,
-.products ul:visited {
-	list-style-type: none;
-	text-decoration: none;
-	font-size: 1.25rem;
-	font-weight: 700;
+figcaption {
+	padding: 0 .25rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: right;
 	color: #727372;
+	background-color: #f2ecce;
+}
+
+
+footer {
+	overflow: hidden;
 	margin: 0;
-	padding: 0;
+	padding: .25rem .75rem;
+	background-color: #f2ecce;
 }
 
 
