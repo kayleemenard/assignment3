@@ -107,6 +107,9 @@ body {
 	background-color: #f2ecce;
 	background-position: center center;
 	background-size: 60rem;
+		color: #727372;
+	text-align: center;
+	text-decoration: none;
 }
 
 h1 {
@@ -114,8 +117,7 @@ h1 {
 	background-color: rgba(242, 236, 206, .8);
 	font-weight: 800;
 	font-size: 2.5rem;
-	color: #727372;
-	text-align: center;
+
 }
 
 article {
