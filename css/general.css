@@ -125,6 +125,17 @@ article {
 	background-color: #f2f3f2;
 }
 
+.pagehead {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	font-weight: 800;
+	font-size: 2.25rem;
+	color: #727372;
+	text-align: left;
+	text-decoration: none;
+}
+
 h2 {
 	margin: 0 0 1.5rem;
 	font-size: 1.5rem;
