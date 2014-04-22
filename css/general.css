@@ -149,6 +149,7 @@ p {
 	font-weight: 400;
 }
 
+/* Following bucket found on index.html */
 .bucket1 {
     margin: 0;
     padding: 0;
@@ -213,6 +214,71 @@ figcaption {
 	background-color: #f2ecce;
 }
 
+/* Applied only to company.html */
+.bucket2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: none;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;;
+    text-align: right;
+
+}
+
+.bucket2 li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket2 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #f2ecce;
+
+    color: #727372;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 100% 0 0;
+}
+
+.bucket2 p {
+	text-transform: none;
+	text-align: left;	
+}
+
+.kayleigh {
+    background-image: url(../images/kayleigh.jpg);  
+}
+
+.jared {
+    background-image: url(../images/jared.jpg);
+}
+
+.diane {
+    background-image: url(../images/diane.jpg);
+}
+
+.cat {
+    background-image: url(../images/hunter.jpg);
+}
+
+
 /* Applied only to Products.html */
 
 .bucket3 {
@@ -220,11 +286,6 @@ figcaption {
     margin: 0 0 1.5rem;
     padding: 0;
     background-color: none;
-
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-transform: uppercase;;
-    text-align: right;
 }
 
 .bucket3 img {
@@ -246,56 +307,6 @@ figcaption {
 	font-weight: 400;
 	text-align: left;
 	text-transform: none;  
-}
-
-/* Applied only to company.html */
-.bucket2 {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style: none;
-    background-color: none;
-}
-
-.bucket2 li {
-    float: left;
-    width: 45%;
-    margin: 0 10% 1.5rem 0;
-    padding: 0;
-
-
-}
-
-.bucket2 li:nth-child(even) {
-    margin: 0;
-}
-
-.bucket2 a,
-.bucket2 a:link,
-.bucket2 a:visited {
-    display: block;
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-color: #f2ecce;
-    margin: 0;
-    padding: 100% 0 0;
-}
-
-.kayleigh {
-    background-image: url(../images/kayleigh.jpg);  
-}
-
-.jared {
-    background-image: url(../images/jared.jpg);
-}
-
-.diane {
-    background-image: url(../images/diane.jpg);
-}
-
-.cat {
-    background-image: url(../images/hunter.jpg);
 }
 
 /* All Footers */
