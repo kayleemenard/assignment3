@@ -243,6 +243,54 @@ figcaption {
 	text-transform: none;  
 }
 
+/* Applied only to company.html */
+.bucket2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: red; /* Visual Aid */
+}
+
+.bucket2 li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket2 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: yellow; /* Visual Aid */
+    margin: 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
+}
+
+.kayleigh {
+    background-image: url(../images/kayleigh.jpg);  
+}
+
+.jared {
+    background-image: url(../images/jared.jpg);
+}
+
+.diane {
+    background-image: url(../images/diane.jpg);
+}
+
+.john {
+    background-image: url(../images/john.jpg);
+}
+
 /* All Footers */
 
 footer {
