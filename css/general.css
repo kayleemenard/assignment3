@@ -30,12 +30,13 @@ img {
 header {
 	overflow: hidden;
 	background-color: #f2ecce;
+	padding: 0 5%;
 }
 
 .logo {
 	width: 4rem;
 	height: auto;
-	margin: .75rem;
+	margin: .75rem 0;
 	float:left;
 }
 
@@ -53,6 +54,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    padding: 0 5%;
 	
 	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
 
@@ -100,7 +102,7 @@ body {
 	background-repeat: no-repeat;
 	background-color: #f2ecce;
 	background-position: center center;
-	background-size: 40rem;
+	background-size: 60rem;
 }
 
 h1 {
@@ -136,10 +138,16 @@ p {
     padding: 0;
     overflow: hidden;
     list-style: none;
-    background-color: #f2ecce; /* Visual Aid */
+    background-color: none;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;;
+    text-align: right;
+
 }
 
-/* .bucket1 li {
+.bucket1 li {
     float: left;
     width: 45%;
     margin: 0 10% 1.5rem 0;
@@ -157,22 +165,28 @@ p {
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: yellow;
+    background-color: #f2ecce;
     margin: 0;
-    padding: 100% 0 0; /* height of image ÷ by width = % */
+    padding: 75% .25rem 0; /* height of image ÷ by width = % */
+    color: #727372;
+    text-decoration: none;
 }
 
 
-/*.one {
+.one {
     background-image: url(../images/wool1.jpg);  
 }
 
 .two {
-    background-image: url(../images/bedroom01.jpg);
-}*/
+    background-image: url(../images/rope.jpg);
+}*
 
+figure {
+	margin: 0;
+	padding: 0;
+}
 
-/* figcaption {
+figcaption {
 	padding: 0 .25rem;
 	font-size: 1.5rem;
 	font-weight: 400;
@@ -180,7 +194,7 @@ p {
 	text-align: right;
 	color: #727372;
 	background-color: #f2ecce;
-} */
+}
 
 
 footer {
@@ -189,6 +203,44 @@ footer {
 	padding: .25rem .75rem;
 	background-color: #f2ecce;
 }
+
+.icon {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.icon li {
+    float: left;
+    width: 7.5%;
+    margin: 0 2.5% 1.5rem 0;
+    padding: 0;
+}
+
+.icon li:nth-child(even) {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
