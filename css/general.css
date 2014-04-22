@@ -30,13 +30,13 @@ img {
 header {
 	overflow: hidden;
 	background-color: #f2ecce;
-	padding: 0 5%;
+	padding: 0;
 }
 
 .logo {
 	width: 4rem;
 	height: auto;
-	margin: .75rem 0;
+	margin: .75rem 5%;
 	float:left;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .nav-top ul { 
 	margin: 0;
-    padding: .25rem 0;
+    padding: 0;
     text-align: center;
     list-style-type: none;
 }
@@ -90,9 +90,13 @@ body {
 	display: block;
 	font-size: 1.25em;
 	font-weight: 400;
-    padding: .25rem 0;
+    padding: 1.5rem 0;
 	color: #f2f3f2;
 	text-decoration: none;
+}
+
+.nav-top a:hover{
+	background-color: #adccd8;
 }
 
 
@@ -205,8 +209,9 @@ footer {
 }
 
 footer p{
-	font-size: 1rem;
-	font-weight: italic;
+	font-size: .75rem;
+	font-weight: 400;
+	text-align: right;
 }
 
 .icon {
