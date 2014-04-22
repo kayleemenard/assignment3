@@ -220,6 +220,11 @@ figcaption {
     margin: 0 0 1.5rem;
     padding: 0;
     background-color: none;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;;
+    text-align: right;
 }
 
 .bucket3 img {
@@ -249,7 +254,7 @@ figcaption {
     padding: 0;
     overflow: hidden;
     list-style: none;
-    background-color: red; /* Visual Aid */
+    background-color: none;
 }
 
 .bucket2 li {
@@ -257,6 +262,8 @@ figcaption {
     width: 45%;
     margin: 0 10% 1.5rem 0;
     padding: 0;
+
+
 }
 
 .bucket2 li:nth-child(even) {
@@ -270,9 +277,9 @@ figcaption {
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: yellow; /* Visual Aid */
+    background-color: #f2ecce;
     margin: 0;
-    padding: 100% 0 0; /* height of image ÷ by width = % */
+    padding: 100% 0 0;
 }
 
 .kayleigh {
@@ -287,8 +294,8 @@ figcaption {
     background-image: url(../images/diane.jpg);
 }
 
-.john {
-    background-image: url(../images/john.jpg);
+.cat {
+    background-image: url(../images/hunter.jpg);
 }
 
 /* All Footers */
