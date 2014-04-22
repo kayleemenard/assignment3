@@ -131,7 +131,48 @@ p {
 	font-weight: 400;
 }
 
-figcaption {
+.bucket1 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: #f2ecce; /* Visual Aid */
+}
+
+/* .bucket1 li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket1 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    margin: 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
+}
+
+
+/*.one {
+    background-image: url(../images/wool1.jpg);  
+}
+
+.two {
+    background-image: url(../images/bedroom01.jpg);
+}*/
+
+
+/* figcaption {
 	padding: 0 .25rem;
 	font-size: 1.5rem;
 	font-weight: 400;
@@ -139,7 +180,7 @@ figcaption {
 	text-align: right;
 	color: #727372;
 	background-color: #f2ecce;
-}
+} */
 
 
 footer {
